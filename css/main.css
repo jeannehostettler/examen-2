@@ -50,3 +50,87 @@ video {
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+
+nav {
+  color: white;
+  text-align: end;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 138px;
+  font-size: 30px;
+}
+
+header {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.38) 0%,
+      rgba(0, 0, 0, 0.38) 100%
+    ),
+    url(../images/restaurant-.photo.jpg), lightgray 50% / cover no-repeat;
+  color: white;
+  text-align: center;
+  padding-top: 42px;
+  padding-bottom: 118px;
+}
+
+.buttons {
+  display: inline-block;
+  position: relative;
+}
+
+.button-content {
+  border: 1px solid var(--white, #fff);
+  background: var(--black-blue, #000956);
+  color: white;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+
+.button-border {
+  position: absolute;
+  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+}
+
+header .button-content {
+  padding: 8px 22px;
+  font-size: 36px;
+}
+
+header .button-border {
+  top: 4px;
+  left: -4px;
+}
+
+header img {
+  width: 810px;
+  height: 129px;
+  flex-shrink: 0;
+  margin-bottom: 142px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu {
+  background-color: #4471b4;
+  text-align: center;
+}
+
+.menu .buttons {
+  margin-top: 21px;
+}
+
+.menu .button-content {
+  padding: 10px 16px;
+}
+
+.menu .button-border {
+  top: 3px;
+  left: -3px;
+}
