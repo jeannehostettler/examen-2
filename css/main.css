@@ -17,6 +17,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -43,13 +44,13 @@ video {
   margin-top: 16px;
 }
 
-.row > .col,
+/*.row > .col,
 .row > [class^="col-"] {
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
-}
+}*/
 
 nav {
   color: white;
@@ -61,7 +62,6 @@ nav {
   font-family: "bebas-neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  scroll-behavior: smooth;
 }
 
 header {
@@ -80,6 +80,9 @@ header {
 .buttons {
   display: inline-block;
   position: relative;
+  font-family: "DM Serif Display", serif;
+  font-family: "Heebo", sans-serif;
+  font-family: "Yeseva One", serif;
 }
 
 .button-content {
@@ -194,6 +197,17 @@ h3 {
 .card-text {
   padding-left: 17px;
   padding-right: 17px;
+}
+
+.plus-info {
+  font-family: "DM Serif Display", serif;
+  font-family: "Heebo", sans-serif;
+  font-family: "Yeseva One", serif;
+  font-weight: 250;
+  line-height: normal;
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
 }
 
 .traditions {
