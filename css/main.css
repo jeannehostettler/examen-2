@@ -226,8 +226,15 @@ h3 {
   }
 }
 
+.titre-tradition {
+  margin-top: 115px;
+  font-size: 50px;
+  margin-right: 235px;
+}
+
 .tradition-text p {
   margin-bottom: 48px;
+  margin-right: 154px;
 }
 
 .tradition-text .button {
@@ -248,6 +255,7 @@ h3 {
   width: 490px;
   height: 689px;
   flex-shrink: 0;
+  margin-top: 104px;
 }
 
 .contacts {
