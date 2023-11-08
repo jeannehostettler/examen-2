@@ -58,6 +58,9 @@ nav {
   justify-content: space-around;
   margin-bottom: 138px;
   font-size: 30px;
+  font-family: "bebas-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
@@ -119,6 +122,15 @@ header img {
 
 h2 {
   text-align: center;
+  font-family: "bebas-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "bebas-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .menu {
@@ -143,6 +155,12 @@ h2 {
   width: 372px;
   height: 494px;
   flex-shrink: 0;
+}
+
+.carte {
+  font-family: "bebas-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .activités {
@@ -177,6 +195,10 @@ h2 {
   padding-right: 17px;
 }
 
+.traditions {
+  background: #4471b4;
+}
+
 @media (min-width: 992px) {
   .tradition-title {
     display: none;
@@ -187,6 +209,10 @@ h2 {
   .titre-tradition {
     display: none;
   }
+}
+
+.tradition-text p {
+  margin-bottom: 48px;
 }
 
 .tradition-text .button {
@@ -218,4 +244,20 @@ h2 {
   width: 426px;
   height: 68px;
   flex-shrink: 0;
+}
+
+.media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.twitter {
+  width: 43px;
+  height: 35px;
+  flex-shrink: 0;
+}
+
+footer {
+  background: #585858;
 }
