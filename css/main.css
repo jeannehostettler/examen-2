@@ -177,6 +177,18 @@ h2 {
   padding-right: 17px;
 }
 
+@media (min-width: 992px) {
+  .tradition-title {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .titre-tradition {
+    display: none;
+  }
+}
+
 .tradition-text .button {
   font-size: 27px;
 }
@@ -188,4 +200,22 @@ h2 {
 .tradition-text .button-border {
   top: 4px;
   right: 4px;
+}
+
+.photo-tradition img {
+  border-radius: 51px;
+  width: 490px;
+  height: 689px;
+  flex-shrink: 0;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-footer {
+  width: 426px;
+  height: 68px;
+  flex-shrink: 0;
 }
