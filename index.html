@@ -15,102 +15,110 @@
     />
   </head>
   <body>
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <header>
+            <div class="col-12">
+              <nav>
+                <div class="normal-nav">
+                  <div class="navigation">
+                    <a href="#menu">menu</a>
+                  </div>
+                  <div class="navigation">
+                    <a href="#menu">boissons</a>
+                  </div>
+                  <div class="navigation">
+                    <a href="#activités">activités</a>
+                  </div>
+                  <div class="navigation">
+                    <a href="#réserver">réservation</a>
+                  </div>
+                  <div class="navigation">
+                    <a href="#contacts">contacts</a>
+                  </div>
+                </div>
+                <div class="burger">
+                  <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="burger-menu">
+                      <a href="#menu"><li>menu</li></a>
+                      <a href="#menu"><li>boissons</li></a>
+                      <a href="#activités"><li>activités</li></a>
+                      <a href="#réserver"><li>réservation</li></a>
+                      <a href="#contacts"><li>contacts</li></a>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <div class="logo">
+                <img src="images/logo-resto.png" alt="le logo du restaurant" />
+              </div>
+              <a id="réserver" class="buttons">
+                <div class="button-content">réserver une table</div>
+                <div class="button-border"></div>
+              </a>
+            </div>
+          </header>
+        </div>
+      </div>
+    </div>
+    <div class="menus">
+      <div class="container">
+        <div class="menu">
+          <div class="row">
+            <div class="col-12">
+              <div class="plats-boissons">
+                <div class="fioritures">
+                  <img
+                    src="images/fioriture-plats-1.png"
+                    alt="fioriture plats 1"
+                  />
+                </div>
+                <h2>Plats et boissons</h2>
+                <div class="fioritures">
+                  <img
+                    src="images/fioriture-plats-2.png"
+                    alt="fioriture plats 2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-xl-4">
+              <div class="food">
+                <img
+                  src="images/photo-nourriture-desktop.png"
+                  alt="photo de plat italiens"
+                />
+              </div>
+            </div>
+            <div class="col-6 col-xl-4 order-xl-2">
+              <div class="food">
+                <img
+                  src="images/photo-cocktails-desktop.png"
+                  alt="photo de cocktails italiens"
+                />
+              </div>
+            </div>
+            <div class="col-2 offset-5 col-xl-4 order-xl-1 offset-xl-0">
+              <div class="carte">
+                <p>Apperçu de la carte</p>
+              </div>
+              <a id="menu" class="buttons">
+                <div class="button-content">voir la carte en entier</div>
+                <div class="button-border"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container">
-      <div class="row">
-        <header>
-          <div class="col-12">
-            <nav>
-              <div class="normal-nav">
-                <div class="navigation">
-                  <a href="#menu">menu</a>
-                </div>
-                <div class="navigation">
-                  <a href="#menu">boissons</a>
-                </div>
-                <div class="navigation">
-                  <a href="#activités">activités</a>
-                </div>
-                <div class="navigation">
-                  <a href="#réserver">réservation</a>
-                </div>
-                <div class="navigation">
-                  <a href="#contacts">contacts</a>
-                </div>
-              </div>
-              <div class="burger">
-                <div id="menuToggle">
-                  <input type="checkbox" />
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <ul id="burger-menu">
-                    <a href="#menu"><li>menu</li></a>
-                    <a href="#menu"><li>boissons</li></a>
-                    <a href="#activités"><li>activités</li></a>
-                    <a href="#réserver"><li>réservation</li></a>
-                    <a href="#contacts"><li>contacts</li></a>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-            <div class="logo">
-              <img src="images/logo-resto.png" alt="le logo du restaurant" />
-            </div>
-            <a id="réserver" class="buttons">
-              <div class="button-content">réserver une table</div>
-              <div class="button-border"></div>
-            </a>
-          </div>
-        </header>
-      </div>
-      <div class="menu">
-        <div class="row">
-          <div class="col-12">
-            <div class="plats-boissons">
-              <div class="fioritures">
-                <img
-                  src="images/fioriture-plats-1.png"
-                  alt="fioriture plats 1"
-                />
-              </div>
-              <h2>Plats et boissons</h2>
-              <div class="fioritures">
-                <img
-                  src="images/fioriture-plats-2.png"
-                  alt="fioriture plats 2"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 col-xl-4">
-            <div class="food">
-              <img
-                src="images/photo-nourriture-desktop.png"
-                alt="photo de plat italiens"
-              />
-            </div>
-          </div>
-          <div class="col-6 col-xl-4 order-xl-2">
-            <div class="food">
-              <img
-                src="images/photo-cocktails-desktop.png"
-                alt="photo de cocktails italiens"
-              />
-            </div>
-          </div>
-          <div class="col-2 offset-5 col-xl-4 order-xl-1 offset-xl-0">
-            <div class="carte">
-              <p>Apperçu de la carte</p>
-            </div>
-            <a id="menu" class="buttons">
-              <div class="button-content">voir la carte en entier</div>
-              <div class="button-border"></div>
-            </a>
-          </div>
-        </div>
-      </div>
       <div class="activités">
         <div class="row">
           <div class="col-12">
@@ -174,7 +182,9 @@
           </div>
         </div>
       </div>
-      <div class="traditions">
+    </div>
+    <div class="traditions-content">
+      <div class="container">
         <div class="row">
           <div class="col-12 col-xl-5">
             <h2 class="tradition-title">Des siècles de tradition</h2>
@@ -209,50 +219,47 @@
           </div>
         </div>
       </div>
-      <footer>
-        <div class="row">
-          <div class="col-6 col-xl-4">
-            <div class="contacts">
-              <a href="mailto:LaCasaDellaPizza@protonmail.com"
-                >LaCasaDellaPizza@protonmail.com</a
-              >
-              <a href="tel:+41 (0)78 405 83 27">078 405 83 27</a>
-            </div>
-            <p>Rte de la pizza 12</p>
-          </div>
-          <div class="col-6 col-xl-5 offset-xl-3">
-            <div class="logo-footer">
-              <img src="images/logo-resto.png" alt="le logo du restaurant" />
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-2 offset-5 offset-xl-0">
-            <div id="contacts" class="media">
-              <a href="https://www.tripadvisor.com/" target="_blank">
-                <img
-                  src="images/logo-tripadvisor.png"
-                  alt="le logo de Tripadvisor"
-                />
-              </a>
-              <div class="twitter">
-                <a href="https://twitter.com/?lang=fr" traget="_blank">
-                  <img src="images/logo-x.png" alt="le logo de twitter" />
-                </a>
-              </div>
-              <a href="https://www.instagram.com/" target="_blank">
-                <img
-                  src="images/logo-instagram.png"
-                  alt="le logo de Instagram"
-                />
-              </a>
-              <a href="https://www.facebook.com/" target="_blank">
-                <img src="images/logo-facebook.png" alt="le logo de Facebook" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
+    <footer>
+      <div class="row">
+        <div class="col-6 col-xl-4">
+          <div class="contacts">
+            <a href="mailto:LaCasaDellaPizza@protonmail.com"
+              >LaCasaDellaPizza@protonmail.com</a
+            >
+            <a href="tel:+41 (0)78 405 83 27">078 405 83 27</a>
+          </div>
+          <p>Rte de la pizza 12</p>
+        </div>
+        <div class="col-6 col-xl-5 offset-xl-3">
+          <div class="logo-footer">
+            <img src="images/logo-resto.png" alt="le logo du restaurant" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2 offset-5 offset-xl-0">
+          <div id="contacts" class="media">
+            <a href="https://www.tripadvisor.com/" target="_blank">
+              <img
+                src="images/logo-tripadvisor.png"
+                alt="le logo de Tripadvisor"
+              />
+            </a>
+            <div class="twitter">
+              <a href="https://twitter.com/?lang=fr" traget="_blank">
+                <img src="images/logo-x.png" alt="le logo de twitter" />
+              </a>
+            </div>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="images/logo-instagram.png" alt="le logo de Instagram" />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src="images/logo-facebook.png" alt="le logo de Facebook" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

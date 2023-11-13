@@ -53,7 +53,17 @@ video {
   border: 1px solid rgba(86, 61, 124, 0.2);
 }*/
 
-nav {
+.header {
+  background-color: #000956;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.38) 0%,
+      rgba(0, 0, 0, 0.38) 100%
+    ),
+    url(../images/restaurant-.photo.jpg), lightgray 50% / cover no-repeat;
+}
+
+.normal-nav {
   color: white;
   text-align: end;
   display: flex;
@@ -74,12 +84,12 @@ nav a:hover {
   margin-left: 66px;
 }
 
-#menuToggle {
-  display: block;
-  position: relative;
-  top: 50px;
-  left: 50px;
+/*display: flex;
+  flex-direction: column;
+  align-items: flex-end; */
 
+#menuToggle {
+  position: relative;
   z-index: 1;
 
   -webkit-user-select: none;
@@ -88,7 +98,7 @@ nav a:hover {
 
 #menuToggle a {
   text-decoration: none;
-  color: #232323;
+  color: white;
 
   transition: color 0.3s ease;
 }
@@ -169,6 +179,9 @@ nav a:hover {
 #burger-menu li {
   padding: 10px 0;
   font-size: 22px;
+  font-family: "bebas-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #menuToggle input:checked ~ ul {
@@ -176,12 +189,6 @@ nav a:hover {
 }
 
 header {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.38) 0%,
-      rgba(0, 0, 0, 0.38) 100%
-    ),
-    url(../images/restaurant-.photo.jpg), lightgray 50% / cover no-repeat;
   color: white;
   text-align: center;
   padding-top: 42px;
@@ -240,7 +247,6 @@ h2 {
   font-family: "bebas-neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 87px;
   font-size: 50px;
 }
 
@@ -255,10 +261,15 @@ h3 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 87px;
+  gap: 2px;
+}
+
+.menus {
+  background-color: #4471b4;
 }
 
 .menu {
-  background-color: #4471b4;
   text-align: center;
 }
 
@@ -310,6 +321,8 @@ h3 {
 .card img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  aspect-ratio: 2.27;
+  object-fit: cover;
 }
 
 .card h3 {
@@ -342,8 +355,9 @@ h3 {
   text-transform: uppercase;
 }
 
-.traditions {
+.traditions-content {
   background: #4471b4;
+  padding-bottom: 127px;
 }
 
 @media (min-width: 992px) {
@@ -356,10 +370,10 @@ h3 {
 }
 
 @media (max-width: 991px) {
-  .titre-tradition {
+  .normal-nav {
     display: none;
   }
-  .normal-nav {
+  .titre-tradition {
     display: none;
   }
 }
