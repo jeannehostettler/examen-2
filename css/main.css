@@ -177,8 +177,11 @@ nav a:hover {
 }
 
 #burger-menu li {
-  padding: 10px 0;
-  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 16px 0;
+  font-size: 20px;
   font-family: "bebas-neue", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -256,13 +259,18 @@ h3 {
   font-style: normal;
 }
 
+.white-h2 {
+  color: white;
+  text-decoration: underline;
+}
+
 .plats-boissons {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 87px;
-  gap: 2px;
+  gap: 7px;
 }
 
 .menus {
