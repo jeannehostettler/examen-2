@@ -149,9 +149,22 @@ h3 {
   font-style: normal;
 }
 
+.plats-boissons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .menu {
   background-color: #4471b4;
   text-align: center;
+}
+
+.fioritures {
+  width: 60.71px;
+  height: 22.88px;
+  flex-shrink: 0;
 }
 
 .menu .buttons {
@@ -167,7 +180,7 @@ h3 {
   left: -3px;
 }
 
-.menu img {
+.food {
   width: 372px;
   height: 494px;
   flex-shrink: 0;
@@ -188,6 +201,9 @@ h3 {
   border-radius: 10px;
   padding-bottom: 15px;
   color: white;
+  width: 368px;
+  height: 569px;
+  flex-shrink: 0;
 }
 
 .card img {
