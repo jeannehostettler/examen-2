@@ -233,10 +233,10 @@ header .button-border {
 }
 
 header img {
-  width: 810px;
-  height: 129px;
   flex-shrink: 0;
-  margin-bottom: 142px;
+  margin-bottom: 137px;
+
+  object-fit: contain;
 }
 
 .logo {
@@ -304,15 +304,19 @@ h3 {
   width: 372px;
   height: 494px;
   flex-shrink: 0;
+  margin-bottom: 98px;
 }
 
 .carte {
   font-family: "bebas-neue", sans-serif;
+  font-size: 30px;
   font-weight: 400;
   font-style: normal;
+  color: white;
+  margin-top: 271px;
 }
 
-.activités {
+.activite-content {
   background: white;
 }
 
