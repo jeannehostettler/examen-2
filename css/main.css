@@ -447,7 +447,12 @@ h3 {
 
 .tradition-text p {
   margin-bottom: 48px;
-  margin-right: 154px;
+  font-family: "ltc-bodoni-175", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 29px;
+  color: white;
+  text-align: center;
 }
 
 .tradition-text .button {
@@ -501,4 +506,10 @@ footer {
   padding-left: 78px;
   color: white;
   font-size: 32px;
+}
+
+.button-content:hover {
+  background-color: white;
+  color: #000956;
+  border: 1px solid #000956;
 }
