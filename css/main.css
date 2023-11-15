@@ -259,7 +259,7 @@ h3 {
   font-style: normal;
 }
 
-.white-h2 {
+.plats-boissons h2 {
   color: white;
   text-decoration: underline;
 }
@@ -312,7 +312,6 @@ h3 {
   font-weight: 400;
   font-style: normal;
   color: white;
-  margin-top: 271px;
 }
 
 .activités h2 {
@@ -330,6 +329,7 @@ h3 {
 
 .activite-content {
   background: white;
+  padding-bottom: 82px;
 }
 
 .card {
@@ -372,6 +372,18 @@ h3 {
   flex-grow: 1;
 }
 
+.card-text a {
+  font-family: "bebas-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.card-text a:hover {
+  text-decoration: underline;
+  color: #000956;
+}
+
 .card-text h3 {
   font-size: 24px;
 }
@@ -385,6 +397,12 @@ h3 {
   font-size: 12px;
   letter-spacing: 0.12px;
   text-transform: uppercase;
+  margin: 27px 0;
+}
+
+.plus-info p {
+  display: flex;
+  justify-content: end;
 }
 
 .traditions-content {
@@ -397,6 +415,9 @@ h3 {
     display: none;
   }
   .burger {
+    display: none;
+  }
+  .plus-info {
     display: none;
   }
 }
@@ -414,6 +435,8 @@ h3 {
   margin-top: 115px;
   font-size: 50px;
   margin-right: 235px;
+  color: white;
+  text-decoration: underline;
 }
 
 .tradition-text p {
