@@ -432,11 +432,17 @@ h3 {
 }
 
 .titre-tradition {
-  margin-top: 115px;
   font-size: 50px;
-  margin-right: 235px;
   color: white;
   text-decoration: underline;
+}
+
+.fioriture-italia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 115px;
+  margin-bottom: 47px;
 }
 
 .tradition-text p {
