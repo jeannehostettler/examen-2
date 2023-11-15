@@ -282,7 +282,6 @@ h3 {
 }
 
 .fioritures {
-  width: 60.71px;
   height: 22.88px;
   flex-shrink: 0;
 }
@@ -316,6 +315,19 @@ h3 {
   margin-top: 271px;
 }
 
+.activités h2 {
+  margin-top: 73px;
+  margin-bottom: 69px;
+}
+
+.prestations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+
 .activite-content {
   background: white;
 }
@@ -325,9 +337,9 @@ h3 {
   border-radius: 10px;
   padding-bottom: 15px;
   color: white;
-  width: 368px;
-  height: 569px;
-  flex-shrink: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .card img {
@@ -344,16 +356,24 @@ h3 {
 
 .card p {
   font-size: 23px;
-  margin-top: 37px;
-  margin-bottom: 39px;
+  margin-top: 45px;
   font-family: "ltc-bodoni-175", serif;
   font-weight: 400;
   font-style: normal;
+  margin-bottom: 39px;
 }
 
 .card-text {
-  padding-left: 17px;
+  padding-left: 20px;
   padding-right: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.card-text h3 {
+  font-size: 24px;
 }
 
 .plus-info {
