@@ -421,6 +421,16 @@ h3 {
   margin: 27px 0;
 }
 
+.plus-activites {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.finger {
+  font-size: 15px;
+}
+
 .plus-info p {
   display: flex;
   justify-content: end;
