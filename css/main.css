@@ -115,6 +115,7 @@ nav a:hover {
   -webkit-user-select: none;
   user-select: none;
   margin-bottom: 78px;
+  margin-top: 26px;
 }
 
 #menuToggle a {
@@ -145,6 +146,7 @@ nav a:hover {
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
+
   position: relative;
 
   background: #cdcdcd;
@@ -182,7 +184,7 @@ nav a:hover {
 #burger-menu {
   position: absolute;
   width: 300px;
-  margin: -25px 0 0 -200px;
+  margin: -55px 0 0 -255px;
   padding: 50px;
   padding-top: 125px;
 
