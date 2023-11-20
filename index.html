@@ -18,6 +18,9 @@
     <div class="header">
       <div class="container">
         <div class="row">
+          <div class="line">
+            <img src="images/line-header.png" alt="ligne du header" />
+          </div>
           <header>
             <div class="col-12">
               <nav>
@@ -52,6 +55,9 @@
                       <a href="#contacts"><li>contacts</li></a>
                     </ul>
                   </div>
+                </div>
+                <div class="line-deco">
+                  <img src="images/line-header-2.png" alt="ligne 2 du header" />
                 </div>
               </nav>
               <div class="logo">
@@ -117,14 +123,16 @@
                 />
               </div>
             </div>
-            <div class="col-2 offset-5 col-xl-4 order-xl-1 offset-xl-0">
+            <div class="col-6 offset-3 col-xl-4 order-xl-1 offset-xl-0">
               <div class="carte">
                 <p>Apperçu de la carte</p>
               </div>
-              <a id="menu" class="buttons">
-                <div class="button-content">voir la carte en entier</div>
-                <div class="button-border"></div>
-              </a>
+              <div class="menu-card">
+                <a id="menu" class="buttons">
+                  <div class="button-content">voir la carte en entier</div>
+                  <div class="button-border"></div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -175,45 +183,41 @@
               </div>
             </div>
             <div class="col-xl-4">
-              <div class="invisible-card">
-                <div class="card">
-                  <img src="images/salle-jeux.webp" alt="une salle de jeux" />
-                  <div class="card-text">
-                    <div>
-                      <h3>Espace de jeux</h3>
-                      <p>
-                        Un espace de jeux à l’effigie de l’Italie sera a
-                        disposition. Il regroupera tout les monuments et lieux
-                        célèbres de l’Italie tels que, la tour de Pise, le
-                        colisée, la fontaine de Trévi, la cathédrale de Monreale
-                        et bien d’autres.
-                      </p>
-                    </div>
-                    <a href="">voir plus</a>
+              <div class="card invisible-card">
+                <img src="images/salle-jeux.webp" alt="une salle de jeux" />
+                <div class="card-text">
+                  <div>
+                    <h3>Espace de jeux</h3>
+                    <p>
+                      Un espace de jeux à l’effigie de l’Italie sera a
+                      disposition. Il regroupera tout les monuments et lieux
+                      célèbres de l’Italie tels que, la tour de Pise, le
+                      colisée, la fontaine de Trévi, la cathédrale de Monreale
+                      et bien d’autres.
+                    </p>
                   </div>
+                  <a href="">voir plus</a>
                 </div>
               </div>
             </div>
             <div class="col-xl-4">
-              <div class="invisible-card">
-                <div class="card">
-                  <img
-                    src="images/collier-pates.jpeg"
-                    alt="un collier de pâtes"
-                  />
-                  <div class="card-text">
-                    <div>
-                      <h3>atelier collier de pâte</h3>
-                      <p>
-                        Une activité s’adressant aux enfants se tiendra au coin
-                        enfants du restaurant. Ils auront la possibilité de
-                        confectionner leur propre collier de pâtes et de le
-                        décorer selon leur envie. Atelier accessible pour les
-                        enfants de tout âge.
-                      </p>
-                    </div>
-                    <a href="">voir plus</a>
+              <div class="card invisible-card">
+                <img
+                  src="images/collier-pates.jpeg"
+                  alt="un collier de pâtes"
+                />
+                <div class="card-text">
+                  <div>
+                    <h3>atelier collier de pâte</h3>
+                    <p>
+                      Une activité s’adressant aux enfants se tiendra au coin
+                      enfants du restaurant. Ils auront la possibilité de
+                      confectionner leur propre collier de pâtes et de le
+                      décorer selon leur envie. Atelier accessible pour les
+                      enfants de tout âge.
+                    </p>
                   </div>
+                  <a href="">voir plus</a>
                 </div>
               </div>
             </div>
@@ -293,10 +297,12 @@
                 puisse s’y retrouver dans le maquis des notions, des thèmes, des
                 problèmes et des auteurs convoqués.
               </p>
-              <a class="buttons">
-                <div class="button-content">lire la suite</div>
-                <div class="button-border"></div>
-              </a>
+              <div class="button-center">
+                <a class="buttons">
+                  <div class="button-content">lire la suite</div>
+                  <div class="button-border"></div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -328,23 +334,32 @@
       <div class="row">
         <div class="col-2 offset-5 offset-xl-0">
           <div id="contacts" class="media">
-            <a href="https://www.tripadvisor.com/" target="_blank">
-              <img
-                src="images/logo-tripadvisor.png"
-                alt="le logo de Tripadvisor"
-              />
-            </a>
+            <div class="tripadvisor">
+              <a href="https://www.tripadvisor.com/" target="_blank">
+                <img
+                  src="images/logo-tripadvisor.png"
+                  alt="le logo de Tripadvisor"
+                />
+              </a>
+            </div>
             <div class="twitter">
               <a href="https://twitter.com/?lang=fr" traget="_blank">
                 <img src="images/logo-x.png" alt="le logo de twitter" />
               </a>
             </div>
-            <a href="https://www.instagram.com/" target="_blank">
-              <img src="images/logo-instagram.png" alt="le logo de Instagram" />
-            </a>
-            <a href="https://www.facebook.com/" target="_blank">
-              <img src="images/logo-facebook.png" alt="le logo de Facebook" />
-            </a>
+            <div class="instagram">
+              <a href="https://www.instagram.com/" target="_blank">
+                <img
+                  src="images/logo-instagram.png"
+                  alt="le logo de Instagram"
+                />
+              </a>
+            </div>
+            <div class="facebook">
+              <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/logo-facebook.png" alt="le logo de Facebook" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
