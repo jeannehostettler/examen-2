@@ -182,7 +182,7 @@ nav a:hover {
 #burger-menu {
   position: absolute;
   width: 300px;
-  margin: 0px 0 0 -200px;
+  margin: -25px 0 0 -200px;
   padding: 50px;
   padding-top: 125px;
 
@@ -313,10 +313,6 @@ h3 {
   left: -3px;
 }
 
-.menu-card {
-  margin-bottom: 337px;
-}
-
 .food {
   width: 372px;
   height: 494px;
@@ -434,6 +430,9 @@ h3 {
 }
 
 @media (min-width: 992px) {
+  .menu-card {
+    margin-bottom: 337px;
+  }
   .tradition-title {
     display: none;
   }
@@ -506,6 +505,9 @@ h3 {
   .normal-nav {
     display: none;
   }
+  .menu-card {
+    margin-bottom: 30px;
+  }
   .titre-tradition {
     display: none;
   }
@@ -570,6 +572,9 @@ h3 {
   }
   .fioriture-italia {
     margin-top: 38px;
+  }
+  .paragraph {
+    display: none;
   }
 }
 
