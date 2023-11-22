@@ -74,10 +74,6 @@ header {
     url(../images/restaurant-.photo.jpg), lightgray 50% / cover no-repeat;
 }
 
-.line-deco {
-  margin-top: 3px;
-}
-
 .normal-nav {
   color: white;
   text-align: end;
@@ -214,6 +210,11 @@ nav a:hover {
   transform: none;
 }
 
+.line-deco {
+  margin-bottom: 94px;
+  width: 100%;
+}
+
 .buttons {
   display: inline-block;
   position: relative;
@@ -248,7 +249,7 @@ header .button-border {
   left: -4px;
 }
 
-header img {
+header .logo {
   flex-shrink: 0;
   margin-bottom: 137px;
 
@@ -335,6 +336,7 @@ h3 {
 .activités h2 {
   margin-top: 73px;
   margin-bottom: 69px;
+  text-decoration: underline;
 }
 
 .prestations {
@@ -425,7 +427,6 @@ h3 {
   display: flex;
   justify-content: end;
   align-items: center;
-  
 }
 
 .finger {
@@ -512,6 +513,9 @@ h3 {
     margin-top: 115px;
     margin-bottom: 47px;
   }
+  .line-deco {
+    margin-top: 3px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -589,6 +593,9 @@ h3 {
   }
   .paragraph {
     display: none;
+  }
+  .line-deco {
+    margin-top: -58px;
   }
 }
 
