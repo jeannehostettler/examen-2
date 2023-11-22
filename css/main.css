@@ -215,6 +215,11 @@ nav a:hover {
   width: 100%;
 }
 
+.line-deco img {
+  height: 40px;
+  object-fit: cover;
+}
+
 .buttons {
   display: inline-block;
   position: relative;
@@ -423,6 +428,10 @@ h3 {
   margin: 27px 0;
 }
 
+.plus-info:hover {
+  text-decoration: underline;
+}
+
 .plus-activites {
   display: flex;
   justify-content: end;
@@ -507,7 +516,7 @@ h3 {
   .traditions-content {
     margin-top: 79px;
     padding-top: 104px;
-    padding-bottom: 127px;
+    padding-bottom: 61px;
   }
   .fioriture-italia {
     margin-top: 115px;
@@ -515,6 +524,12 @@ h3 {
   }
   .line-deco {
     margin-top: 3px;
+  }
+  .photo-tradition img {
+    width: 490px;
+    height: 689px;
+    flex-shrink: 0;
+    border-radius: 51px;
   }
 }
 
@@ -527,6 +542,9 @@ h3 {
   }
   .titre-tradition {
     display: none;
+  }
+  .tradition-title {
+    font-size: 20px;
   }
   .food {
     display: none;
@@ -597,6 +615,21 @@ h3 {
   .line-deco {
     margin-top: -58px;
   }
+  .photo-tradition img {
+    width: 302px;
+    height: 425px;
+    flex-shrink: 0;
+    border-radius: 18px;
+  }
+  .photo-tradition {
+    display: flex;
+    justify-content: center;
+  }
+  .fioritures-trad {
+    width: 34px;
+    height: 23px;
+    flex-shrink: 0;
+  }
 }
 
 .titre-tradition {
@@ -621,7 +654,7 @@ h3 {
 .traditional {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 
 .tradition-text .button-border {
@@ -632,13 +665,6 @@ h3 {
 .button-center {
   display: flex;
   justify-content: center;
-}
-
-.photo-tradition img {
-  border-radius: 51px;
-  width: 490px;
-  height: 689px;
-  flex-shrink: 0;
 }
 
 .contacts {
