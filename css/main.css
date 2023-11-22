@@ -179,11 +179,11 @@ nav a:hover {
 
 #burger-menu {
   position: absolute;
-  width: 300px;
-  margin: -55px 0 0 -255px;
-  padding: 50px;
-  padding-top: 125px;
-
+  width: 205px;
+  margin: -55px 0 0 -160px;
+  padding-left: 19px;
+  padding-top: 71px;
+  padding-bottom: 28px;
   background: rgba(68, 113, 180, 0.83);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -198,8 +198,8 @@ nav a:hover {
 #burger-menu li {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  padding: 16px 0;
+  justify-content: flex-start;
+  padding-bottom: 16px;
   font-size: 20px;
   font-family: "bebas-neue", sans-serif;
   font-weight: 400;
