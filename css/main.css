@@ -468,6 +468,7 @@ h3 {
   }
   .logo-footer {
     padding-right: 71px;
+    margin-top: 168px;
   }
   .twitter {
     width: 43px;
@@ -551,6 +552,9 @@ h3 {
   .line-deco {
     margin-bottom: 94px;
   }
+  footer {
+    padding-top: 70px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -588,6 +592,7 @@ h3 {
   }
   .logo-footer {
     padding-right: 15px;
+    margin-top: 64px;
   }
   .twitter {
     width: 33.13px;
@@ -687,6 +692,9 @@ h3 {
   .card {
     margin-left: 61px;
   }
+  footer {
+    padding-top: 27px;
+  }
 }
 
 .titre-tradition {
@@ -753,7 +761,6 @@ h3 {
 
 footer {
   background: #585858;
-  padding-top: 70px;
   padding-bottom: 37px;
 
   color: white;
