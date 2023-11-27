@@ -180,7 +180,7 @@ nav a:hover {
 #burger-menu {
   position: absolute;
   width: 205px;
-  margin: -55px 0 0 -160px;
+  margin: -55px 0 0 -140px;
   padding-left: 19px;
   padding-top: 71px;
   padding-bottom: 28px;
@@ -256,8 +256,6 @@ header .button-border {
 
 header .logo {
   flex-shrink: 0;
-  margin-bottom: 137px;
-
   object-fit: contain;
 }
 
@@ -265,6 +263,7 @@ header .logo {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 }
 
 h2 {
@@ -272,7 +271,6 @@ h2 {
   font-family: "bebas-neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 50px;
 }
 
 h3 {
@@ -291,7 +289,6 @@ h3 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 87px;
   gap: 7px;
 }
 
@@ -338,9 +335,7 @@ h3 {
   margin-top: 271px;
 }
 
-.activités h2 {
-  margin-top: 73px;
-  margin-bottom: 69px;
+.activites h2 {
   text-decoration: underline;
 }
 
@@ -531,6 +526,31 @@ h3 {
     flex-shrink: 0;
     border-radius: 51px;
   }
+  .table .button-content {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  .fioriture-activites-2 {
+    display: none;
+  }
+  .fioriture-plats-2 {
+    display: none;
+  }
+  .activites h2 {
+    margin-top: 73px;
+    margin-bottom: 69px;
+  }
+  .plats-boissons {
+    margin-top: 87px;
+  }
+  .logo img {
+    height: 129px;
+  }
+  header .logo {
+    margin-bottom: 137px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -629,6 +649,31 @@ h3 {
     width: 34px;
     height: 23px;
     flex-shrink: 0;
+  }
+  .table .button-content {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .fioriture-activites-1 {
+    display: none;
+  }
+  .fioriture-plats-1 {
+    display: none;
+  }
+  .activites h2 {
+    margin-bottom: 32px;
+    margin-top: 27px;
+  }
+  .plats-boissons {
+    margin-top: 31px;
+  }
+  .logo img {
+    height: 48px;
+  }
+  header .logo {
+    margin-bottom: 48px;
   }
 }
 
