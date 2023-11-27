@@ -211,7 +211,6 @@ nav a:hover {
 }
 
 .line-deco {
-  margin-bottom: 94px;
   width: 100%;
 }
 
@@ -399,7 +398,7 @@ h3 {
   font-family: "bebas-neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .card-text a:hover {
@@ -423,7 +422,7 @@ h3 {
   margin: 27px 0;
 }
 
-.plus-info:hover {
+.plus-activites:hover {
   text-decoration: underline;
 }
 
@@ -431,10 +430,7 @@ h3 {
   display: flex;
   justify-content: end;
   align-items: center;
-}
-
-.finger {
-  font-size: 15px;
+  align-items: baseline;
 }
 
 .plus-info p {
@@ -496,7 +492,7 @@ h3 {
     margin-left: 62px;
   }
   .tradition-text .button-content {
-    font-size: 27px;
+    font-size: 32px;
     padding: 11px 42px;
   }
   .tradition-text p {
@@ -550,6 +546,9 @@ h3 {
   }
   header .logo {
     margin-bottom: 137px;
+  }
+  .line-deco {
+    margin-bottom: 94px;
   }
 }
 
@@ -675,6 +674,15 @@ h3 {
   header .logo {
     margin-bottom: 48px;
   }
+  .card-text p {
+    font-size: 18px;
+  }
+  .card-text a {
+    font-size: 16px;
+  }
+  .line-deco {
+    margin-bottom: 33px;
+  }
 }
 
 .titre-tradition {
@@ -685,7 +693,7 @@ h3 {
 
 .tradition-title {
   color: white;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   margin-top: 45px;
   text-decoration: underline;
 }
@@ -727,6 +735,12 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.contact {
+  font-family: "ltc-bodoni-175", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .contact:hover {
