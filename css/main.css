@@ -61,7 +61,13 @@ header {
   color: white;
   text-align: center;
   margin-top: 13px;
-  padding-bottom: 118px;
+  padding-bottom: 30px;
+}
+
+.button-label {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .header {
@@ -263,6 +269,14 @@ header .logo {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+}
+
+.label {
+  display: flex;
+  justify-content: end;
+  width: 152px;
+  height: 206px;
+  flex-shrink: 0;
 }
 
 h2 {
@@ -469,6 +483,7 @@ h3 {
   .logo-footer {
     padding-right: 71px;
     margin-top: 168px;
+    margin-bottom: 55px;
   }
   .twitter {
     width: 43px;
@@ -554,6 +569,9 @@ h3 {
   }
   footer {
     padding-top: 70px;
+  }
+  .label {
+    margin-left: 290px;
   }
 }
 
@@ -695,6 +713,12 @@ h3 {
   }
   footer {
     padding-top: 27px;
+  }
+  .label {
+    width: 80.718px;
+    height: 109.395px;
+    flex-shrink: 0;
+    margin-left: 85px;
   }
 }
 
