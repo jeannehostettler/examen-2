@@ -238,6 +238,14 @@ nav a:hover {
   font-family: "Yeseva One", serif;
 }
 
+.buttons .button-border {
+  transition: transform 0.2s;
+}
+
+.buttons .button-border:hover {
+  transform: translate(-5px, 5px);
+}
+
 .button-content {
   border: 1px solid var(--white, #fff);
   background: var(--black-blue, #000956);
