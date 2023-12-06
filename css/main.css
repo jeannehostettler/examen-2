@@ -92,6 +92,11 @@ header {
   font-style: normal;
 }
 
+nav a {
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+
 nav a:hover {
   color: #efd804;
   text-decoration: underline;
@@ -240,6 +245,14 @@ nav a:hover {
   text-align: center;
   z-index: 1;
   position: relative;
+  transition-property: color;
+  transition-duration: 0.4s;
+}
+
+.button-content:hover {
+  background-color: white;
+  color: #000956;
+  border: 1px solid #000956;
 }
 
 .button-border {
@@ -414,6 +427,8 @@ h3 {
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+  transition-property: color;
+  transition-duration: 0.5s;
 }
 
 .card-text a:hover {
@@ -789,10 +804,4 @@ footer {
 
   color: white;
   font-size: 32px;
-}
-
-.button-content:hover {
-  background-color: white;
-  color: #000956;
-  border: 1px solid #000956;
 }
