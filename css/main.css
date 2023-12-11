@@ -465,14 +465,14 @@ h3 {
 .traditions-content {
   background: #4471b4;
 }
+.button-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* desktop */
 @media (min-width: 1200px) {
-  .button-label {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   .label {
     width: 152px;
     height: 206px;
@@ -592,9 +592,6 @@ h3 {
 /* Mobile */
 @media (max-width: 1196px) {
   .button-label {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     justify-content: space-evenly;
   }
   .label {
