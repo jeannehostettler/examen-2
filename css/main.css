@@ -579,9 +579,6 @@ h3 {
   .plats-boissons {
     margin-top: 87px;
   }
-  .logo img {
-    height: 129px;
-  }
   header .logo {
     margin-bottom: 137px;
   }
@@ -599,7 +596,7 @@ h3 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .label {
     width: 80.718px;
@@ -723,9 +720,6 @@ h3 {
   .plats-boissons {
     margin-top: 31px;
   }
-  .logo img {
-    height: 48px;
-  }
   header .logo {
     margin-bottom: 48px;
   }
@@ -740,6 +734,7 @@ h3 {
   }
   .card {
     margin-left: 61px;
+    margin-right: 64px;
   }
   footer {
     padding-top: 27px;
