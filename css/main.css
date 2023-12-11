@@ -485,9 +485,6 @@ h3 {
   .tradition-title {
     display: none;
   }
-  .burger {
-    display: none;
-  }
   .plus-info {
     display: none;
   }
@@ -590,6 +587,24 @@ h3 {
   }
 }
 
+@media (min-width: 592px) {
+  .burger {
+    display: none;
+  }
+}
+
+@media (max-width: 593px) {
+  .line-deco {
+    margin-top: -58px;
+  }
+  .normal-nav {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+}
+
 /* Mobile */
 @media (max-width: 1196px) {
   .button-label {
@@ -599,9 +614,6 @@ h3 {
     width: 80.718px;
     height: 109.395px;
     flex-shrink: 0;
-  }
-  .normal-nav {
-    display: none;
   }
   .menu-card {
     margin-bottom: 30px;
@@ -622,9 +634,6 @@ h3 {
     display: none;
   }
   .carte {
-    display: none;
-  }
-  .line {
     display: none;
   }
   .contact {
@@ -679,9 +688,6 @@ h3 {
   }
   .paragraph {
     display: none;
-  }
-  .line-deco {
-    margin-top: -58px;
   }
   .photo-tradition img {
     width: 302px;
