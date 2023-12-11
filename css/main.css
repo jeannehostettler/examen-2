@@ -256,7 +256,6 @@ nav a:hover {
 .button-content:hover {
   background-color: white;
   color: #000956;
-  border: 1px solid #000956;
 }
 
 .button-border {
@@ -591,7 +590,7 @@ h3 {
 }
 
 /* Mobile */
-@media (max-width: 1199px) {
+@media (max-width: 1196px) {
   .button-label {
     display: flex;
     flex-direction: row;
